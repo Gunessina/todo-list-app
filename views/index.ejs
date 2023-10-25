@@ -1,0 +1,22 @@
+<%- include("partials/header.ejs") %>
+
+<div class="firstbox">
+  <div class="box" id="heading">
+    <h1>
+      Overview 
+    </h1>
+  </div>
+  <div class="innerbox">
+    <%for (var i = 0; i < items.length; i++) { %>
+      <div class="item" id="check">
+         <input type="checkbox">
+            <p id="texts">
+              <%= items[i] %>
+            </p>        
+      </div>
+    <%} %>
+  </div>
+</div>
+
+
+<%- include("partials/footer.ejs") %>

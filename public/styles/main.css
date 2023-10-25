@@ -1,0 +1,135 @@
+
+
+header {
+    background-color: #9AEEF5;
+    font-family: 'Arima', cursive;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+}
+.nav {
+    display:flex;
+    list-style: none;
+    column-gap: 8px;
+}
+
+.nav a:link {
+    color: #A89C48;
+    text-decoration: none;
+    border: none;
+}
+
+.nav a:hover {
+    color: #A85185;
+    text-decoration: none;
+}
+main {
+    background-color: #cccccc;
+    background-image: radial-gradient(#F569BC, #9AEEF5);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;       
+    overflow: auto;
+}
+.firstbox {
+    width: 400px;
+    height:100vh;
+    
+}
+#heading.box {
+    font-family: 'Amita', cursive;
+    font-size: 1rem;
+    color: #A85185;
+    background-color: #F4E482;
+    border-radius: 5px;
+    width: 400px;
+    height:60px;
+    text-align: center;  
+}
+
+.innerbox {
+    max-width: 400px;
+    background-color: white;
+    border-radius: 5px;
+}
+.item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+    font-family: "Arima", cursive;
+    font-weight: 600;
+}
+input[type="checkbox"] {
+    margin: 20px;
+    accent-color: #A85185;
+}
+input[type="checkbox" i] {
+    background-color: #A85185;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+input[type="checkbox"]:checked ~ #texts {
+    text-decoration: line-through;
+    text-decoration-color: #F4E482;
+    text-decoration-thickness: 0.2rem;
+}
+
+.item:last-child {
+    border-bottom: 0;
+}
+
+form {
+    text-align: center;
+    margin-top: 0em;
+    margin-left: 20px;
+}
+input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 310px;
+}
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #F569BC;
+  }
+
+button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    border-color: transparent;
+    background-color:#F4E482;
+    color:#A85185;
+    font-size: 1.2rem;
+    font-family: "Amita", cursive;
+    text-align: center;
+    border-width: 0;
+    margin-left: 3px;
+}
+footer {
+    background-color: #9AEEF5;
+    color:#551a8b;  
+    font-family: 'Arima', cursive;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+}
+footer p {
+    padding-left: 40px;
+}
+
+
+
+
+
